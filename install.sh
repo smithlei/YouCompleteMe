@@ -13,7 +13,6 @@ function cmake_install {
     linux_cmake_install
   fi
 }
-
 function homebrew_cmake_install {
   if command_exists brew; then
     brew install cmake
